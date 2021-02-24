@@ -31,18 +31,16 @@ systemctl stop sshd
 sudo systemctl enable sshd
 sudo systemctl disable sshd
 11. install Java
-sudo yum install java-1.8.0-openjdk-devel
+> sudo yum install java-1.8.0-openjdk-devel
 
-/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.275.b01-0.el7_9.x86_64/jre/bin/
-12 xterm
-yum install xorg-x11-xauth
-yum install xorg-x11-apps
+> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.275.b01-0.el7_9.x86_64/jre/bin/
+12. xterm
+> yum install xorg-x11-xauth
+> yum install xorg-x11-apps
 
-wget http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.8/binaries/en-US/Apache_OpenOffice_4.1.8_Linux_x86-64_install-rpm_en-US.tar.gz
-
-tar xzf Apache_OpenOffice_4.1.8_Linux_x86-64_install-rpm_en-US.tar.gz
-cd en-US/RPMS/
-rpm -Uvh *.rpm
-
-cd desktop-integration/
-rpm -Uvh openoffice4.1.8-redhat-menus-4.1.8-9803.noarch.rpm
+13. wget http://sourceforge.net/projects/openofficeorg.mirror/files/4.1.8/binaries/en-US/Apache_OpenOffice_4.1.8_Linux_x86-64_install-rpm_en-US.tar.gz
+14. tar xzf Apache_OpenOffice_4.1.8_Linux_x86-64_install-rpm_en-US.tar.gz
+15. cd en-US/RPMS/
+16. rpm -Uvh *.rpm
+17. cd desktop-integration/
+18. rpm -Uvh openoffice4.1.8-redhat-menus-4.1.8-9803.noarch.rpm
